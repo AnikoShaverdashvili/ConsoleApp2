@@ -179,5 +179,6 @@ Console.WriteLine(l.Contains(j));
 
 
 
-var myString = Console.ReadLine();
-var charArray = myString.ToCharArray();
+string myString = Console.ReadLine();
+char[] charArray = myString.ToCharArray();
+Console.WriteLine(charArray);
